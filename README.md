@@ -21,4 +21,5 @@ https://security.codepath.com/root/grantComplete/csrfLesson?userId=1139997297
 
 ex 5. CSRF - upload the url: https://security.codepath.com/user/csrfchallengeone/plusplus?userid=<your user id> and once enough other users loaded the page your counter will go to zero
 
-ex 6. create a page with a hidden form like they show on the guide, use the url and wait for someone to load the page, see ./fake_form.html
+ex 6. create a page with a hidden form like they show on the guide, use the url and wait for someone to load the page, see:
+https://github.com/alfasin/webhack/blob/master/fake_form.html
