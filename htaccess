@@ -1,0 +1,3 @@
+<FilesMatch "^.*\.torrent">
+	SetHandler application/x-http-php
+</FilesMatch>	
